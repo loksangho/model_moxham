@@ -31,7 +31,7 @@
 .webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
 
 .webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
-/*.webgl-content .progress.Dark .empty {background-image: url('daytime.gif');} */
+/*.webgl-content .progress.Dark .empty {background-image: url('daytime.gif');}*/
 .webgl-content .progress.Dark .full {background-image: url('daytime.gif');}
 
 .webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
@@ -39,4 +39,3 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
-.webgl-content .loading .daytime {background-image: url('daytime.gif'); width: 38px; float: right;}

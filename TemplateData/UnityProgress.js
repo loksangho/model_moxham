@@ -19,11 +19,12 @@ function UnityProgress(unityInstance, progress) {
       /*
     unityInstance.loading = document.createElement("div");
     unityInstance.loading.className = "daytime";
-    unityInstance.container.appendChild(unityInstance.loading);
-*/
+    unityInstance.container.appendChild(unityInstance.loading);*/
+
   }
   unityInstance.progress.full.style.width = (100 * progress) + "%";
   unityInstance.progress.empty.style.width = (100 * (1 - progress)) + "%";
   if (progress == 1)
     unityInstance.logo.style.display = unityInstance.progress.style.display = "none";
 }
+
